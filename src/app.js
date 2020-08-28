@@ -161,7 +161,3 @@ function adoptionLoopTick() {
 adoptionLoopTick();
 
 module.exports = app;
-
-
-//TODO DELETE THIS LATER ON
-//uuid: ae5c8a07-1bb2-4bb5-8d4d-df60afc40f54
