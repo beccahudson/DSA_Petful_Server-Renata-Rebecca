@@ -1,0 +1,38 @@
+{
+  "name": "petful-server",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "Renata & Rebecca",
+  "license": "ISC",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --require test/setup.js",
+    "start": "nodemon src/server.js",
+    "dev": "nodemon src/server.js",
+    "predeploy": "npm audit",
+    "deploy": "git push heroku master"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "faker": "^4.1.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2",
+    "helmet": "^3.23.3",
+    "pg": "^7.12.0",
+    "postgrator": "^4.0.1",
+    "valid-url": "^1.0.9",
+    "winston": "^3.3.3",
+    "knex": "^0.21.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "nodemon": "^2.0.4",
+    "postgrator-cli": "^3.2.0",
+    "supertest": "^4.0.2"
+  }
+}
